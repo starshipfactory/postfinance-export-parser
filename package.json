@@ -4,7 +4,7 @@
   "description": "This package parses output from the Swiss Postfinance",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/starshipfactory/postfinance-export-parser/issues"
   },
-  "homepage": "https://github.com/starshipfactory/postfinance-export-parser#readme"
+  "homepage": "https://github.com/starshipfactory/postfinance-export-parser#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }
